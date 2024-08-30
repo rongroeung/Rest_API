@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "camdx",
+      "type": "kh.com.acledabank.CamdxProperties",
+      "sourceType": "kh.com.acledabank.CamdxProperties"
+    },
+    {
+      "name": "telegram",
+      "type": "kh.com.acledabank.TelegramProperties",
+      "sourceType": "kh.com.acledabank.TelegramProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "camdx.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.CamdxProperties"
+    },
+    {
+      "name": "telegram.chatid",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.TelegramProperties"
+    },
+    {
+      "name": "telegram.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.TelegramProperties"
+    },
+    {
+      "name": "telegram.serverside",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.TelegramProperties"
+    },
+    {
+      "name": "telegram.service",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.TelegramProperties"
+    },
+    {
+      "name": "telegram.threadid",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.TelegramProperties"
+    }
+  ],
+  "hints": []
+}
