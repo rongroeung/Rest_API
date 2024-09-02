@@ -1,9 +1,9 @@
 {
   "groups": [
     {
-      "name": "camdx",
-      "type": "kh.com.acledabank.CamdxProperties",
-      "sourceType": "kh.com.acledabank.CamdxProperties"
+      "name": "db",
+      "type": "kh.com.acledabank.DbProperties",
+      "sourceType": "kh.com.acledabank.DbProperties"
     },
     {
       "name": "telegram",
@@ -13,9 +13,19 @@
   ],
   "properties": [
     {
-      "name": "camdx.endpoint",
+      "name": "db.endpoint",
       "type": "java.lang.String",
-      "sourceType": "kh.com.acledabank.CamdxProperties"
+      "sourceType": "kh.com.acledabank.DbProperties"
+    },
+    {
+      "name": "db.password",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.DbProperties"
+    },
+    {
+      "name": "db.username",
+      "type": "java.lang.String",
+      "sourceType": "kh.com.acledabank.DbProperties"
     },
     {
       "name": "telegram.chatid",

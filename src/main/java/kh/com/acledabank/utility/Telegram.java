@@ -16,7 +16,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import kh.com.acledabank.camdx.CamdxService;
+import kh.com.acledabank.service.BackendService;
 
 @Service
 public class Telegram {
@@ -24,7 +24,7 @@ public class Telegram {
 	@Autowired
 	RestTemplate restTemplate;
 	
-	private final Logger log = LoggerFactory.getLogger(CamdxService.class);
+	private final Logger log = LoggerFactory.getLogger(BackendService.class);
 	
 	@SuppressWarnings("rawtypes")
 	@Async
