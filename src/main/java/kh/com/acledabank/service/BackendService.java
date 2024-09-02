@@ -102,6 +102,7 @@ public class BackendService {
 			return new ResponseEntity<GetContentByIdResponse>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 		
+		// Validate content id not found
 		if (responseDto.getId() == null) {
 			response.setCode(404);
 			response.setMessage("Content ID not found");
