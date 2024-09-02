@@ -20,7 +20,10 @@ public class ServiceController {
 	
 	@SuppressWarnings("rawtypes")
 	@GetMapping(value = "/cr-web-backend/api/v1/getContentById", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity GetContentById(@RequestParam("id") String id, @RequestParam("lang") String lang) {
+	public ResponseEntity GetContentById(@RequestParam("id") String id, @RequestParam(name = "lang", required = false) String lang) {
+		if (lang == null) {
+			lang = "en";
+		}
 		return backend.GetContentById(id, lang);
 	}
 	
